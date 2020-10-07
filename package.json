@@ -1,13 +1,16 @@
 {
   "name": "typing",
   "version": "0.0.0",
+  "homepage": "https://ryzhak-a.github.io/typing/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist/typing"
   },
   "private": true,
   "dependencies": {
@@ -29,10 +32,13 @@
     "@angular-devkit/build-angular": "~0.1001.4",
     "@angular/cli": "~10.1.4",
     "@angular/compiler-cli": "~10.1.4",
-    "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
+    "gh-pages": "^3.1.0",
+    "gulp": "^4.0.2",
+    "gulp-gh-pages": "^0.5.4",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~5.0.0",
