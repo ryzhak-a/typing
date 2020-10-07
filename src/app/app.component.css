@@ -1,3 +1,15 @@
 :host {
   padding: 1rem;
 }
+
+span.correct {
+  color: green;
+}
+
+span.incorrect {
+  color: red;
+}
+
+span.pending {
+  color: grey;
+}
