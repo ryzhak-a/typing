@@ -1,7 +1,7 @@
 {
   "name": "typing",
   "version": "0.0.0",
-  "homepage": "https://ryzhak-a.github.io/typing/",
+  "homepage": "http://ryzhak-a.github.io/typing",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
